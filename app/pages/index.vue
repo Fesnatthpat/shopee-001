@@ -147,16 +147,16 @@ interface JobForm {
 
 // 2. กำหนดค่าเริ่มต้นของฟอร์ม (คุณตั้งค่า Default ไว้ให้ผู้ใช้ได้เลย)
 const form = ref<JobForm>({
-    payout: 65,
-    distance: 8,
-    fuelPrice: 38.5,
-    fuelConsumption: 40, // วิ่งได้ 40 กม. ต่อ 1 ลิตร
-    boxW: 20,
-    boxL: 30,
-    boxH: 20,
-    itemCount: 1,
-    pickUpCount: 1,
-    dropOffCount: 1
+    payout: 0,
+    distance: 0,
+    fuelPrice: 0,
+    fuelConsumption: 0, // วิ่งได้ 40 กม. ต่อ 1 ลิตร
+    boxW: 0,
+    boxL: 0,
+    boxH: 0,
+    itemCount: 0,
+    pickUpCount: 0,
+    dropOffCount: 0
 })
 
 // 3. Logic วิเคราะห์ข้อมูลแบบ Real-time
